@@ -1,0 +1,53 @@
+Cap1. solitarios vs conversacionales. Cuales problemas son mas dificiles de resolver y cuales necesitan más planificación.
+Cap2. Mini-Max y alfa-beta.
+Cap3. Demostración indirecta. Representación procedimental vs declarativa.
+Cap4. Nada..
+Cap5. Ventajas de una Red Neuronal.
+
+Teoría: 
+1. Metodo de resolucíon
+2. Pruebas Formal de Validez
+3. Prueba del bicondicional
+4. Caracteristicas de las redes neuronales
+5. Tabla de verdad
+6. Refutacion por analogía lógica
+
+
+Cap 2) primero en profundidad, primero en anchura, algoritmo de unificacion, metodo resolutor
+Cap 3)que es un argunmento, cuando es valido, refutacion por analogia logica, entre otras preguntas frecuentes
+Cap 4) nada
+Cap 5) ventajas y desventajas de las redes neuronales y caracteristicas de èstas. Tambien me pregunto para que servia que la red aprenda, que pasaba con los datos que entraban "sucios" a estas redes, o algo asi fue, pero no supe responderle bien.
+El oral fue tranca, no supe responderle lo del algoritmo de unificacion y alguna que otra pregunta. Algunas las estuve pensando un bueeen rato y ella sin embargo me espero. Piola.
+
+
+Descripción formal de un problema
+Escalada, Escala Simple y por máxima pendiente. Qué diferencias tienen.
+Reducción de problemas
+Verificación de restricciones, todo el proceso y además en qué casos se produce una contradicción.
+Componentes de un sistema de planificación
+Estructura de un argumento
+Cuando un argumento es válido y cuando no lo es.
+Tablas de verdad, para qué sirven y cómo se construyen. Demostrar cuando un argumento es válido y cuándo no con una tabla, qué hay que fijarse.
+Prueba formal de validez, qué es lo que hace y además como se aplica paso por paso.
+Qué es un condicional (antecedente y consecuente), en lógica proposicional qué palabras suelen indicar que estoy frente a un condicional.
+Regla de demostración condicional e indirecta
+Un argumento es deductivo o inductivo
+Estructura de un sistema experto
+Métodos de aprendizaje de las redes neuronales, explicar cada uno.
+
+1 - Problemas ignorables recuperables, no recuperables. Cual requiere mas planificacion.
+2 -, busqueda primero profundidad, anchura y primero el mejor. 
+3 - Como se compone un argumento, ¿Es inductivo o deductivo?, regla de demostracion indirecta.
+4 - Componentes de un sistema experto.
+5 - Estructura de una red neuronal, aprendizaje (Solo explicar cuando una red neuronal termina el proceso de aprendizaje)
+
+Teoria. Fue escrito. 3 temas distintos en  función de como estuvo la práctica. Desarrollar:
+Tema A. Busquedas a ciegas y experto. 
+Tema B. Primero mejor y algoritmos genéticos. 
+Tema C. Los 2 tipos de escalada y redes neuronales.
+
+Definir conocimiento declarativo y procedural. Diferencias.
+Mencionar las 3 propiedades de los sitemas convencionales o monotonos.
+Definir Redes neuronales artificiales. A que nos referimos por aprendizaje. Metodos de aprendizaje y como llevarlos a cabo. Estructura de las RNA.
+Un ej de tabla de verdad que salia de un texto donde con los enunciados habia que construir las premisas, la conclusion y la tabla. (No me acuerdo bien el texto pero era algo como Si el catalogo es correcto entonces Si las flores se plantaron en abril entonces las flores florecen en junio. Las flores florecen en Junio. Si el catalogo es correcto entonces las flores se plantaron en abril.)
+Un ej de Prueba formal de validez aplicando las reglas de inferencia y de reemplazo parecido al del tp.	
