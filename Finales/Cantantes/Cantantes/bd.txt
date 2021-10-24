@@ -1,0 +1,12 @@
+cantante(cantante1,argentina).
+cantante(cantante2,brasil).
+cantante(cantante3,uruguay).
+cantante(cantante4,suecia).
+
+album(album1,cantante1,[cancion1,cancion2,cancion3,cancion4],05/12/1996,1100000).
+album(album2,cantante1,[cancion5,cancion6,cancion7,cancion8],23/11/2000,2000000).
+album(album3,cantante2,[cancion9,cancion10,cancion11,cancion12],22/10/1999,100000).
+album(album4,cantante3,[cancion13,cancion14,cancion15,cancion16],24/05/2002,900000).
+album(album5,cantante3,[cancion17,cancion18,cancion19,cancion20],24/11/2002,100000).
+album(album6,cantante4,[cancion21,cancion22,cancion23,cancion24],'24/11/2002',100000).
+album(album7,cantante4,[cancion25,cancion26,cancion27,cancion28],'24/12/2002',100000).

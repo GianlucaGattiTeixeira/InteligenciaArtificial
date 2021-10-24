@@ -1,0 +1,43 @@
+:-dynamic alumno/2.
+:-dynamic materia/3.
+:-dynamic carrera/3.
+:-dynamic examen_final/4.
+
+alumno(a1,'manuel videguren').
+alumno(a2,'daniel roveda').
+alumno(a3,'andres ottino').
+alumno(a4,'franco tapia').
+alumno(a5,'ariel maritano').
+alumno(a6,'leonardo barbagallo').
+alumno(a7,'diego castagna').
+alumno(a8,'royce gracie').
+alumno(a9,'groucho marx').
+alumno(a10,'harpo marx').
+
+materia(1,'algoritmos',[a1,a2,a3,a4,a8]).
+materia(2,'analisis matematico',[a5,a8,a2]).
+materia(3,'reacciones quimicas ',[a10,a9,a7]).
+materia(4,'algebra',[a1,a3,a5,a7,a9,a10,a5]).
+materia(5,'analisis de sistemas',[a1,a2,a3,a4]).
+materia(6,'quimica organica',[a6,a10,a9,a8,a7]).
+materia(7,'fisica',[a1,a2,a5,a9,a10]).
+materia(8,'sistemas y  organizaciones',[a1,a2,a3,a4,a5]).
+
+carrera(1,sistemas,[1,2,4,5,7,8]).
+carrera(2,quimica,[2,3,4,6,7]).
+
+examen_final(a1,1,9,2020).
+examen_final(a2,2,6,2020).
+examen_final(a3,5,7,2019).
+examen_final(a4,5,4,2019).
+examen_final(a5,8,5,2019).
+examen_final(a6,6,9,2019).
+examen_final(a7,6,6,2019).
+examen_final(a8,6,4,2019).
+examen_final(a9,7,6,2020).
+examen_final(a10,7,4,2020).
+
+examen_final(a6,6,9,2019).
+examen_final(a7,6,6,2019).
+examen_final(a8,6,4,2019).
+examen_final(a10,6,1,2019).

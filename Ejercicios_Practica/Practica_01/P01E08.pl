@@ -1,4 +1,3 @@
-
 horoscopo(acuario,21,1,21,2).
 horoscopo(piscis,21,2,21,3).
 horoscopo(aries,21,3,21,4).
@@ -25,8 +24,8 @@ mes(10,31).
 mes(11,30).
 mes(12,31).
 
-signocorrecto(S,DD,MM):-
-    horoscopo(S,DC,MC,DF,MF),((DD>=DC,MM=MC,mes(MM,X),DD=<X);(DD=<DF,MM=MF)).
+signo(Dia, Mes, Signo):-
+    horoscopo(Signo,DiaDesde,Mes,_,_), Dia >= DiaDesde, mes(Mes, NumDias), NumDias >= Dia.
 
-misigno(DD,MM):-
-    horoscopo(S,DC,MC,DF,MF),((DD>=DC,MM=MC,mes(MM,X),DD=<X);(DD=<DF,MM=MF)),write(S).
+signo(Dia, Mes, Signo):- 
+    horoscopo(Signo,_,_,DiaHasta,Mes), Dia =< DiaHasta. 

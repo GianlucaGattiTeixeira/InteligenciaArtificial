@@ -1,0 +1,6 @@
+:- dynamic personas/2.
+
+personas(1, gian).
+personas(2, 'carlitos bala').
+personas(q, as).
+

@@ -1,0 +1,4 @@
+Cliente(dni,nombre,obrasocial).
+Practica(cod,medico,fecha,dnicliente,asistio).
+Ingresar un dni y buscar si el cliente entre todas sus practicas falto mas de un 80% y asi escribir si es posible que falte o no.
+Si no hay practicas registradas para ese cliente informar que no hay datos suficientes para saberlo.

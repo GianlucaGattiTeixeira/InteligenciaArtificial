@@ -1,0 +1,15 @@
+cliente(11111111,juan,os1).
+cliente(22222222,pedro,os2).
+cliente(33333333,pablo,os3).
+
+practica(1,med1,01122017,11111111,si).
+practica(2,med2,04122017,11111111,si).
+practica(3,med3,10122017,11111111,si).
+practica(4,med1,02122017,22222222,si).
+practica(5,med1,13122017,11111111,si).
+practica(6,med1,05122017,22222222,no).
+practica(7,med1,08122017,22222222,no).
+practica(8,med1,24122017,11111111,no).
+practica(9,med1,08122017,22222222,no).
+practica(10,med1,08122017,22222222,no).
+practica(11,med1,08122017,22222222,no).

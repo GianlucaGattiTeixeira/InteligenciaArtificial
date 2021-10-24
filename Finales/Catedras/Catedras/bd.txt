@@ -1,0 +1,15 @@
+catedra(ia).
+catedra(ades).
+comision(ades,1,2016,[11111,44444,55555]).
+comision(ades,1,2017,[22222,33333]).
+comision(ades,2,2017,[66666,77777]).
+comision(ia,1,2016,[44444]).
+comision(ia,1,2017,[11111,22222,33333]).
+comision(ia,2,2017,[66666,77777,55555]).
+alumno(11111,juan).
+alumno(22222,martin).
+alumno(33333,pepe).
+alumno(44444,raul).
+alumno(55555,lautaro).
+alumno(66666,mariana).
+alumno(77777,juana).

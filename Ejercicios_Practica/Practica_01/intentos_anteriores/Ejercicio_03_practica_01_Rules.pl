@@ -9,6 +9,9 @@ pertenece(holanda,grupo02).
 pertenece(escocia,grupo02).
 
 rivales(X,Y):-
-    pertenece(X,Z1), pertenece(Y,Z2), Z1=Z2, X\=Y.
+    pertenece(X,Z), pertenece(Y,Z), X\=Y.
+
+% rivales(X,Y):-
+%     pertenece(X,Z1), pertenece(Y,Z2), Z1=Z2, X\=Y.
 
 % el grupo de brasil se buguea cuando preguntas y responde con un cuarto argumento false

@@ -1,0 +1,8 @@
+Los ... son datos que no eran relevantes para el desarrollo del ejercicio):
+    catedra(nombre_catedra,...).
+    comision(nombre_catedra,comision,ciclo,...,[legajos de inscriptos]).
+    alumno(legajo,nombre,...).
+* Aclaracion: una catedra puede tener muchas comisiones *
+Te pedia:
+    1- Devolver lista [] de las catedras del ciclo 2017 que tengan más de 100 inscriptos en sus comisiones.
+    2- Mostrar las catedras en las que se encuentra inscripto un alumno (ingresando el legajo) tambien en el ciclo 2017.

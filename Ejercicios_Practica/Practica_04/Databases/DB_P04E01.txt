@@ -1,0 +1,7 @@
+:- dynamic gasto/4.
+
+gasto(gian, 9, gas, 1000).
+gasto(gian, 9, luz, 3452).
+
+gasto(norberto, 11, gas, 1000).
+gasto(norberto, 9, luz, 3452).
