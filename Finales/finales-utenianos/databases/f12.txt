@@ -1,0 +1,16 @@
+:-dynamic camion/8.
+:-dynamic conductor/5.
+
+%camion(cod_camion, marca, modelo, tipo_mma, peso_vacio, tipo1, tipo2, tipo3)
+camion(ca1,scania,2015,n1,2500,'camion de lona','4 ejes',rigido).
+camion(ca2,scania,2017,n1,2000,'camion de lona','2 ejes',trailer).
+camion(ca3,ford,2015,n2,3000,'plataforma abierta','2 ejes',articulado).
+camion(ca4,ford,2015,n2,3500,'plataforma abierta','3 ejes',rigido).
+camion(ca5,ford,2019,n3,2900,'camion de lona','2 ejes',rigido).
+
+%conductor(cod_conductor, apellido_nombre, edad, ciudad_natal, 1[cod_camion]n)
+conductor(co1, 'juan lopez', 56, 'rosario', [ca1,ca3,ca5]).
+conductor(co2, 'pedro sanchez', 49, 'rosario', [ca2,ca4,ca5]).
+conductor(co3, 'mario juarez', 60, 'san lorenzo', [ca2,ca3,ca5]).
+conductor(co4, 'marcos marquez', 39, 'funes', [ca1,ca2,ca3]).
+conductor(co5, 'roberto rigoberti', 44, 'roldan', [ca3,ca4,ca5]).

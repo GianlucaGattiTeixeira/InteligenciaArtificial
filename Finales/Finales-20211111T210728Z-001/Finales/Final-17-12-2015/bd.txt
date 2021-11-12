@@ -1,0 +1,11 @@
+cancion(1,'flaca','calamaro',16,'Vals').
+cancion(2,'paloma','calamaro',16,'Vals').
+cancion(3,'altasuciedad','calamaro',16,'Vals').
+cancion(4,'mienfermedad','calamaro',16,'Vals').
+cancion(5,'cuandoteconoci','calamaro',16,'Romance').
+
+invitado('catriel',[1,2,3,4,5]).
+invitado('topo',[1,2]).
+invitado('roke',[1,2]).
+invitado('santiago',[1,2,3]).
+invitado('apu',[1,2,3,4,5]).

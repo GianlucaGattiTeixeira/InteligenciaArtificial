@@ -1,0 +1,17 @@
+:- dynamic medicamentos/5.
+:- dynamic composicion/3.
+
+%medicamentos(Nombre_med, Droga, Presentación, Laboratorio, 1[Síntomas_que_contrarresta]n).
+medicamentos(ibupirac, ibuprofeno, pastilla, nose, [jaqueca, cefalea, inflamacion, dolor1, dolor2]).
+medicamentos(bayaspirina, aspirina, pastilla, bayer, [cefalea, fiebre, dolor1, dolor3]).
+medicamentos(desalergin, dexametasona, gotas, alergialandia, [asma, alergia]).
+
+%composición(Nombre_med, Componente, Cantidad).
+composicion(ibupirac, ibu, 1).
+composicion(ibupirac, pirac, 2).
+composicion(ibupiraccito, ibu, 1).
+composicion(ibupiraccito, pirac, 2).
+composicion(bayaspirina, baya, 5).
+composicion(bayaspirina, aspirina, 3).
+composicion(desalergin, dexa, 2).
+composicion(desalergin, metasona, 6).

@@ -1,0 +1,22 @@
+%vehiculo(cod_vehiculo,[color,aire_acondicionado,puertas,modelo]).
+%ventas(num_factura,cod_vehiculo,fecha).
+
+vehiculo(c1,['rojo','con aire',3,2000]).
+vehiculo(c2,['azul','con aire',3,2015]).
+vehiculo(c3,['amarillo','sin aire',5,2002]).
+vehiculo(c4,['rojo','con aire',5,2000]).
+
+ventas(f1,c1,'20/10/2019').
+ventas(f2,c1,'20/10/2019').
+ventas(f3,c1,'20/10/2019').
+ventas(f4,c1,'20/10/2019').
+ventas(f5,c1,'20/10/2019').
+ventas(f6,c1,'20/10/2019').
+ventas(f7,c1,'20/10/2019').
+ventas(f8,c1,'20/10/2019').
+ventas(f9,c1,'20/10/2019').
+ventas(f10,c1,'20/10/2019').
+ventas(f11,c1,'20/10/2019').
+ventas(f12,c2,'20/10/2018').
+ventas(f13,c3,'20/10/2019').
+ventas(f14,c3,'20/10/2015').

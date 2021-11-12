@@ -18,7 +18,7 @@ openDb:-
     retractall(materia/3), 
     retractall(carrera/3),
     retractall(examen_final/4),
-    consult('C:/Users/Gianluca/Desktop/Facultad/2020/Inteligencia artificial/Practicas/Finales/finales-utenianos/databases/db-utenianos-final-01').
+    consult('C:/Users/Gianluca/Desktop/Facultad/2020/Inteligencia artificial/Practicas/InteligenciaArtificial/Finales/finales-utenianos/databases/db-utenianos-final-01').
 
 leerLista([H|T]):-
     writeln('ingrese un elemento para la lista y [] para terminar'),
@@ -39,6 +39,9 @@ ejercicio01:-
     writeln('los aprobados fueron: '), write(LA),
     writeln('los desaprobados fueron: '), write(LNA).
 
+ejercicio02:-
+    openDb.
+
 recuperarAlumnosPorResultado([],_,_,[],[]).
 recuperarAlumnosPorResultado([Hdni|Tdni], Materia, Anio, [Nombre|Tap],ListaDap):-
     examen_final(Hdni, Materia, Nota, Anio),
@@ -50,9 +53,17 @@ recuperarAlumnosPorResultado([Hdni|Tdni], Materia, Anio, ListaAp,[Nombre|Tdap]):
     alumno(Hdni,Nombre),
     recuperarAlumnosPorResultado(Tdni, Materia, Anio, ListaAp, Tdap).
 
-carrerasConTodasLasMaterias():-
+carrerasConTodasLasMaterias(Materias,[H|T]):-
+    retract(carrera(_,H,Lista)),
+    tieneTodos(Lista,Materias),
+    carrerasConTodasLasMaterias(Materias,T).
+carrerasConTodasLasMaterias(_,[]):-
+    consult('C:/Users/Gianluca/Desktop/Facultad/2020/Inteligencia artificial/Practicas/InteligenciaArtificial/Finales/finales-utenianos/databases/db-utenianos-final-01').
 
-
+tieneTodos(_,[]).
+tieneTodos(ListaContenedora,[Hcontenida|Tcontenida]):-
+    pertenece(ListaContenedora,Hcontenida),
+    tieneTodos(ListaContenedora,Tcontenida).
 
 pertenece([Elem|_],Elem).
 pertenece([_|T],Elem):-

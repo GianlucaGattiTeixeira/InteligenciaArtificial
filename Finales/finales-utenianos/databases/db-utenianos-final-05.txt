@@ -1,0 +1,20 @@
+:- dynamic persona/4.
+:- dynamic curso/2.
+:- dynamic persona_curso/3.
+
+persona('juan',30,['medico','ingeniero','fisico'],'roldan').
+persona('sebastian',33,['medico','maestro','estadistico'],'rosario').
+persona('federico',28,['abogado','medico'],'rosario').
+persona('groucho',32,['abogado'],'rosario').
+
+curso('medico',['pediatria','dermatologia','traumatologia']).
+curso('ingeniero',['java','pyton','ruby']).
+curso('fisico',['astronomia','mecanica','cuantica']).
+curso('programador',['aspNet','C#','python','Cobol']).
+curso('estadistico',['numerologia','reglas']).
+curso('abogado',['civil','penal','internacional']).
+
+persona_curso('juan','medico',['pediatria']).
+persona_curso('juan','ingeniero',['java','pyton']).
+persona_curso('sebastian','medico',['traumatologia']).
+persona_curso('federico','abogado',['internacional']).

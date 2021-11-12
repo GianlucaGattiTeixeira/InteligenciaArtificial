@@ -1,0 +1,15 @@
+:-dynamic cliente/3.
+:-dynamic practica/5.
+
+cliente(32910834,'manuel videguren',omint).
+cliente(31100200,'daniel roveda',aprepa).
+cliente(33231564,'franco tapia',omint).
+
+practica(1,'gato maritano',20/01/2020,32910834,no).
+practica(2,blb,21/02/2020,32910834,si).
+practica(3,'gato maritano',22/02/2020,32910834,si).
+practica(4,blb,15/04/2020,31100200,si).
+practica(5,blb,17/05/2020,31100200,si).
+practica(6,blb,19/06/2020,32910834,si).
+practica(7,'gato maritano',24/07/2020,32910834,no).
+practica(8,'gato maritano',30/08/2020,33231564,si).

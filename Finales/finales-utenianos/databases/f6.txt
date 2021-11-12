@@ -1,0 +1,14 @@
+:-dynamic institutosalud/5.
+:-dynamic medico/4.
+
+institutosalud(i1,'Americano','Rioja 1700','privado',['osde','iapos','esencial','medife','omint']).
+institutosalud(i2,'Heca','Pelegrini 3000','publico',['osde','iapos','esencial','medife','pami','comercio']).
+institutosalud(i3,'plaza',' Laprida 1700','privado',['osde','iapo','pami','omint']).
+institutosalud(i4,'Centenario','avellaneda 2000','publico',['pami']).
+
+medico(m1,'Laura','Forense',[i1,i2,i3]).
+medico(m2,'Mister','Pediatria',[i2,i4]).
+medico(m3,'Manu','Clinica general',[i1]).
+medico(m4,'Fito','Forense',[i1,i2]).
+medico(m5,'Aspero','Forense',[i1,i2,i3]).
+medico(m6,'Alan','Clinica general',[i1]).

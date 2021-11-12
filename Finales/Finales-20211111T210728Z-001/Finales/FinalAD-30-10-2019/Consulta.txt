@@ -1,0 +1,1 @@
+Ejercicio 1 no devuelve nada en los Noaprobados. Ver si se tiene que devolver todo es un solo predicado o puedo usar otro y separo.

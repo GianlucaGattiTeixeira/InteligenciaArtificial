@@ -1,0 +1,17 @@
+% 5 - ProfesionCursos - 26/02/2019
+% Dada la siguiente BD:
+% personas(Nombre, Edad, [Profesiones],Ciudad).
+% cursos(Profesion, [Cursos]).
+% personas_cursos(Nombre,Profesion,[CursosRealizados]).
+% 1) Ingresar una profesión (dato de entrada), y mostar la edad promedio de dicha profesion en la ciudad de Rosario.
+% 2) Ingresar una profesión (dato de entrada), y mostrar para cada persona, la lista de cursos que le faltan realizar.
+% 3) Mostrar la profesión con mayor cantidad de cursos
+
+:-dynamic(personas/4).
+:-dynamic(cursos).
+:-dynamic().
+:-dynamic().
+
+abrirDb
+
+menu:-

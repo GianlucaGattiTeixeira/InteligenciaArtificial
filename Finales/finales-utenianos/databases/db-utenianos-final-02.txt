@@ -1,0 +1,32 @@
+:- dynamic usuario/6.
+
+usuario(1, manu, activo, 21, c1, [2, 3, 4]).
+usuario(2, tato, activo, 21, c1, [1]).
+usuario(3, dani, activo, 12, c1, [1, 2, 4]).
+usuario(4, royce, activo, 13, c5, [3]).
+usuario(5, rorion, activo, 14, c3, [8]).
+usuario(6, rickson, inactivo, 15, c4, [1, 3]).
+usuario(7, woody, inactivo, 16, c4, [10, 9]).
+usuario(8, federico, inactivo, 17, c5, [9]).
+usuario(9, andres, activo, 18, c1, [2]).
+usuario(10, fito, activo, 32, c2, [6]).
+usuario(11, ernest, activo, 87, c12, [1, 7]).
+usuario(12, charles, inactivo, 54, c1, [11, 7]).
+
+:- dynamic provincia/3.
+
+provincia(p1, 'Catamarca', [c1, c2, c3]).
+provincia(p2, 'Santa Fe', [c4]).
+provincia(p3, 'Jujuy', [c5]).
+provincia(p4, 'Cordoba', [c6, c7, c8]).
+provincia(p5, 'Santa Catalina', [c9]).
+provincia(p6, 'Santa Na', [c10]).
+provincia(p7, 'Rocha', [c11]).
+provincia(p8, 'Chalten', [c12]).
+
+:- dynamic pais/3.
+
+pais(1, 'Argentina', [p1, p2, p3, p4]).
+pais(2, 'Brasil', [p5, p6]).
+pais(3, 'Uruguay', [p7, p8]).
+

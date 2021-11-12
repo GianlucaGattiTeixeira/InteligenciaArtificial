@@ -1,0 +1,18 @@
+:-dynamic ninio/3.
+:-dynamic vacuna/2.
+:-dynamic vacuna_aplicacion/3.
+
+ninio('catriel',6,['v1']).
+ninio('santiago',10,['v1','v2','v3']).
+ninio('damian',14,['v5']).
+
+vacuna('v1',['hepatitis b','tetano']).
+vacuna('v2',['hepatitis b']).
+vacuna('v3',['tetano','difteria']).
+vacuna('v4',['tetano','locura']).
+vacuna('v5',['covid']).
+vacuna('v6',['diarrea']).
+
+vacuna_aplicacion(1,6,['v1','v2','v3']).
+vacuna_aplicacion(7,11,['v4']).
+vacuna_aplicacion(12,15,['v5','v6']).

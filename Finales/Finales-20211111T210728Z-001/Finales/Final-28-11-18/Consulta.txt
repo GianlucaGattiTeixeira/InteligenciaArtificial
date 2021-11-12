@@ -1,0 +1,3 @@
+Explicar por qué hay que poner: contarcoment(H,0)(Ejercicio 2).
+Con el NOT, se puede hacer también(Probar).preguntar not o cero si esta bien y 
+en el punto 2 el ciu no se pierde en un lugar a otro preguntar.

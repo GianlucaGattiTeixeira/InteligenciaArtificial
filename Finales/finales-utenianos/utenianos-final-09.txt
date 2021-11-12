@@ -1,0 +1,55 @@
+% Hechos:
+% jardin(CodigoJ, datoqnoserv, [Tipos de Sala]
+% salas(CodigoJ, datosqenoserv, tipo_de_sala, [Dni Asistentes])
+% 1 - Dada una Lista [] de Dni, y un Codigo de Jardin Devolver una Lista [] con aquellos Dni que asisten realmente al Jardin.
+% 2 - Dada una Lista [] de Jardines, y una Lista [] de Tipos de Sala, devolver una Lista [] con los Jardines que tengan todos los tipos de sala.
+
+:-dynamic(jardin/3).
+:-dynamic(salas/4).
+
+abrirDb:-
+    retractall(jardin/3),
+    retractall(salas/4),
+    consult('C:/Users/Gianluca/Desktop/Facultad/2020/Inteligencia artificial/Practicas/InteligenciaArtificial/Finales/finales-utenianos/databases/db-utenianos-final-09.txt').
+
+% ------------ METODOS COMPLEMENTARIOS ---------------
+
+leerLista([Elem|T]):-
+    nl,
+    writeln('ingrese un elemento o [] para finalizar'),
+    read(Elem),
+    Elem \= [],
+    leerLista(T).
+
+pertenece([H|_],H).
+pertenece([_|T],Elem):-
+    pertenece(T,Elem).
+
+% ------------ FIN METODOS COMPLEMENTARIOS ------------
+
+menu:-
+    writeln('ingrese uan opcion para el menu'),
+    read(Op),
+    ejercicio(Op).
+
+ejercicio(1):-
+    writeln('ingrese codigo de jardin'),
+    read(CodJardin),
+    writeln('ingrese lista de dnis'),
+    leerLista(ListaDnis),
+    asistentes(CodJardin, ListaDnis, ListaAsistentes),
+    write(ListaAsistentes),
+    Menu.
+
+ejercicio(2):-
+
+
+asistentes(_,[],[]).
+asistentes(CodJardin, [Hdni|Tdni], [Hdni|Tass]):-
+    jardin(CodigoJ, TiposSala),
+    salas(CodJardin,_,_,ListaAsistentes),
+    pertenece(ListaAsistentes, Hdni), 
+    asistentes(CodJardin, Tdni, Tass).
+asistentes(CodJardin, [_|Tdni], ListaAsistenstesReales):-
+    asistentes(CodJardin, Tdni, ListaAsistenstesReales),.
+

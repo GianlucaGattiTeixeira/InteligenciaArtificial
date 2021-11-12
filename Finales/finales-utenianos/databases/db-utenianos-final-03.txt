@@ -1,0 +1,33 @@
+:-dynamic(provincia/2).
+:-dynamic(localidad/3).
+:-dynamic(persona/5).
+:-dynamic(candidato/2).
+:-dynamic(intencion_de_voto/2).
+
+provincia(1,'Santa Fe').
+provincia(2,'Cordoba').
+provincia(3,'Buenos Aires').
+
+localidad(1,'Rosario',1).
+localidad(2,'Funes',1).
+localidad(3,'Roldan',1).
+localidad(4,'Arroyo Seco',1).
+localidad(5,'Calamuchita',2).
+localidad(6,'Rio Cuarto',2).
+localidad(7,'Capital Federal',3).
+localidad(8,'Tandil',3).
+
+persona(32910834,'Manuel','25/10/1987',100000,1).
+persona(10100100,'Franco','30/03/1949',80000,1).
+persona(40400400,'Bruce','25/02/1948',150000,1).
+persona(20200200,'Daniel','25/01/1950',60000,5).
+persona(30300300,'Fito','23/09/1949',20000,8).
+
+candidato(1,'Dan Severn').
+candidato(2,'Don Frye').
+
+intencion_de_voto(32910834,1).
+intencion_de_voto(10100100,2).
+intencion_de_voto(40400400,2).
+intencion_de_voto(20200200,2).
+intencion_de_voto(30300300,1).

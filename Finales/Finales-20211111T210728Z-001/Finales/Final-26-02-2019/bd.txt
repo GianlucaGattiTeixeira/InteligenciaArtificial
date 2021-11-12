@@ -1,0 +1,17 @@
+personas('Catriel',30,['Medico','Ingeniero','Fisico'],'Rosario').
+personas('Sebastian',30,['Medico','Maestro','Estadistico'],'Rosario').
+personas('Santiago',25,['Abogado','Medico'],'Rosario').
+
+cursos('Medico',['Pediatria','Dermatologia','Traumotologia']).
+cursos('Ingeniero',['Java','Pyhton','Ruby']).
+cursos('Fisico',['Astronomia','Mecanica','Cuantica']).
+cursos('Maestro',['Pedagogia','Oratoria','Psicologia']).
+cursos('Estadistico',['Numeros','Reglas']).
+cursos('Abogado',['Civil','Penal','Internacional']).
+
+personas_cursos('Catriel','Medico',['Pediatria']).
+personas_cursos('Catriel','Ingeniero',['Java','Pyhton']).
+personas_cursos('Sebastian','Medico',['Traumotologia']).
+personas_cursos('Santigo','Abogado',['Internacional']).
+personas_cursos('Santigo','Medico',[]).
+

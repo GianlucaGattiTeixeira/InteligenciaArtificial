@@ -1,0 +1,16 @@
+:-dynamic auto/2.
+:-dynamic viaje/2.
+
+auto(1,aaa111).
+auto(2,bbb222).
+auto(3,ccc333).
+auto(4,ddd444).
+auto(5,eee555).
+
+viaje(1,100).
+viaje(1,150).
+viaje(1,250).
+viaje(2,500).
+viaje(2,400).
+viaje(3,1000).
+viaje(4,700).
